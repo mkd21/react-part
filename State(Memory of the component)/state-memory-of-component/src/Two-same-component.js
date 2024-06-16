@@ -13,7 +13,7 @@ function dualComponent(){
         <span>value of y is: {y}</span>
         <br />
 
-        <button onClick={ () => updateX(x + 1) }>
+        <button onClick={ () => updateX(x + 1)} >
             click to update the value of X
         </button>
         <br />

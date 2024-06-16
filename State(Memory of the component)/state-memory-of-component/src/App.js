@@ -3,7 +3,9 @@
 
 // import Funk1 from "./Two-state-variable-in-component";
 
-import DualComponent from "./Two-same-component";
+// import DualComponent from "./Two-same-component";
+
+import DisplayOnBody from "./AddingstateonEventHandlers";
 
 
 function App() {
@@ -13,8 +15,11 @@ function App() {
 
      {/* <Funk1 /> */}
 
-     <DualComponent/>
-     <DualComponent/>
+     {/* <DualComponent/>
+     <DualComponent/> */}
+
+      <DisplayOnBody/>
+
     </div>
   );
 }
