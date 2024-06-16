@@ -1,0 +1,7 @@
+while working with event listeners always pass the callback functions
+
+or define the function above and then pass the reference.
+
+Do not call the function there, where we are setting an event.
+
+react limits the number of re-renders to avoid infinite loop
