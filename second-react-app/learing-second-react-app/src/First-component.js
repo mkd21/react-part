@@ -3,7 +3,7 @@ import Desc from "./Description";
 
 function catImages(props)        // props object hai. toh usko destructure krke v likh skte hai. yaad rakhna
 {   
-    console.log(props.children);
+    // console.log(props.children);
     const customStyle = {"fontSize" : "24px", color : "orange", textShadow : "2px 3px 8px black" };
 
     return (

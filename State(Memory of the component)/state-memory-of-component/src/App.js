@@ -1,5 +1,5 @@
 
-// import StateFunc from "./State-Concept";
+import StateFunc from "./State-Concept";
 
 // import Funk1 from "./Two-state-variable-in-component";
 
@@ -11,14 +11,14 @@ import DisplayOnBody from "./AddingstateonEventHandlers";
 function App() {
   return (
     <div>
-     {/* <StateFunc /> */}
+     <StateFunc />
 
      {/* <Funk1 /> */}
 
      {/* <DualComponent/>
      <DualComponent/> */}
 
-      <DisplayOnBody/>
+      {/* <DisplayOnBody/> */}
 
     </div>
   );
